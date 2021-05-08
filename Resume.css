@@ -24,13 +24,22 @@ section h1 span{
 }
 #experience{
     margin-top: 30px;
+    padding-top: 15px;
 }
 #contact{
-    margin-top: 30px;
+    margin-top: 40px;
+    padding-top: 35px;
 
 }
 #education{
     margin-top: 30px;
+    padding-top: 15px;
+    margin-bottom: 35px;
+}
+#portfolio{
+    margin-top: 20px;
+    padding: auto;
+    margin-bottom: 50px;
 }
 
 section:nth-child(2n+1){
@@ -65,7 +74,7 @@ section:nth-child(2n+1){
     text-align: center;
 }
 #My-name{
-    font-size: 3rem;
+    font-size: 4rem;
     letter-spacing: 0.1rem;
     font-weight: 700;
    padding-top: 1rem;
@@ -74,7 +83,7 @@ section:nth-child(2n+1){
 }
 .social-icons li a i{
     padding: 10px;
-    font-size: 1rem;
+    font-size: 2rem;
     border-radius: 50%;
     
 
@@ -90,10 +99,11 @@ section:nth-child(2n+1){
     
 }
 .My-img{
-    height: 12rem;
-    width: 12rem;
+    height: 14rem;
+    width: 14rem;
     margin: auto;
-    margin-top: -90px
+    margin-top: -125px;
+    margin-bottom: 20px;
 }
 .My-img img{
   border-radius:  50%;
@@ -106,13 +116,15 @@ section:nth-child(2n+1){
      margin: auto;
      width: 80%;
      color:grey;
-    
+    margin-top: 15px;
+    margin-bottom: 10px;
      font-family: italic;
      text-align:justify;
  }
  .section-heading{
      width: auto;
-    padding-top: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
     
      font-weight: 400;
  }
@@ -299,7 +311,7 @@ section:nth-child(2n+1){
     background-color: #0abcf9;
     background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 160px;
 }
 
 #contact h1,
@@ -404,5 +416,8 @@ textarea:focus,
 button:focus {
     outline: none;
 }
+
+
+
 
 
